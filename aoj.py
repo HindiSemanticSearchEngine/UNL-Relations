@@ -7,5 +7,5 @@ aoj(self,word1,word2):
     return True
   elif w1['pos_tag'] == NN and w2['pos_tag']==JJ:
     return True
-  else
-    return false
+  else:
+    return False
