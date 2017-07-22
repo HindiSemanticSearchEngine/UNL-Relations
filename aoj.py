@@ -1,4 +1,4 @@
-def aoj(self,word1,word2):
+def aoj(self,w1,w2):
   if w1['pos_tag']=='NNP' and w2['pos_tag']=='PRP':
     return True
   elif w1['pos_tag']=='PRP' and w2['pos_tag']=='NN':
