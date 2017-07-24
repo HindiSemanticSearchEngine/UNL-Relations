@@ -1,14 +1,12 @@
-def and(w1, w2):
+def and_relation(self, w1, w2):
 
-    if w1['pos_tag'] == 'noun' and w2['pos_tag'] == 'noun':
+    if w1['pos_tag'] == 'NN' and w2['pos_tag'] == 'NN':
         return True
-    elif w1['pos_tag'] == 'num' and w2['pos_tag'] == 'num':
+    elif w1['pos_tag'] == 'NNP' and w2['pos_tag'] == 'NNP':
         return True
     elif w1['pos_tag'] == 'RB' and w2['pos_tag'] == 'RB':
         return True
     elif w1['pos_tag'] == 'JJ' and w2['pos_tag'] == 'JJ':
-        return True
-    elif w1['pos_tag'] == 'IN' and w2['pos_tag'] == 'IN':
         return True
     else:
         return False
