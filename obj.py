@@ -15,7 +15,7 @@ def obj(w1,w2):
                 return True
 
         elif w1['pos_tag']=='NNP' and w2['pos_tag']=='VAUX':
+		return True
             
-
 	else:
 		return False
